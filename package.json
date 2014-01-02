@@ -3,7 +3,7 @@
   "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
   "description": "Basic robots.txt generator plugin for Hexo",
   "homepage": "http://ilee.co.uk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "keywords": [
     "hexo",
