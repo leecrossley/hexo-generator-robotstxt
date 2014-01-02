@@ -4,6 +4,6 @@ var util = hexo.util,
     route = hexo.route;
 
 extend.generator.register(function(locals, render, callback){
-    route.set("robots.txt", "User-Agent: *");
+    route.set("robots.txt", "User-agent: *");
     callback();
 });
