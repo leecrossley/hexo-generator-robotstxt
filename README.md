@@ -1,22 +1,22 @@
-# hexo-generator-cname
+# hexo-generator-robotstxt
 
-A very simple plugin to generate a Github pages CNAME file automatically for [Hexo](https://npmjs.org/package/hexo).
+A very simple plugin to generate a robots.txt file automatically for [Hexo](https://npmjs.org/package/hexo).
 
 ## Usage
 
 ### Install
 
 ```
-npm install hexo-generator-cname --save
+npm install hexo-generator-robotstxt --save
 ```
 
 ### Enable
 
-Add `hexo-generator-cname` to `plugins` in `_config.yml`.
+Add `hexo-generator-robotstxt` to `plugins` in `_config.yml`.
 
 ``` yaml
 plugins:
-- hexo-generator-cname
+- hexo-generator-robotstxt
 ```
 
 ## License
