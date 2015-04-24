@@ -27,7 +27,7 @@ robotstxt:
   - /one_file_to_disallow.html
   - /2nd_file_to_disallow.html
   - /3rd_file_to_disallow.html
-``` yaml
+```
 
 ## License
 
