@@ -3,7 +3,6 @@ hexo.extend.generator.register('robotstxt', function(locals){
 		path: 'robots.txt',
 		data: function(){
 			var cfg = hexo.config.robotstxt;
-			console.log(cfg);
 			var body = "User-agent: " + (cfg.useragent ? cfg.useragent : '*' )  + "\n";
 
 			if( cfg.disallow ) {
