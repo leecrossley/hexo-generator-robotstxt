@@ -24,9 +24,9 @@ Add config for `robots.txt` to `_config.yml`.
 robotstxt:
   useragent: "*"
   disallow:
-  - /one_file_to_disallow.html
-  - /2nd_file_to_disallow.html
-  - /3rd_file_to_disallow.html
+    - /one_file_to_disallow.html
+    - /2nd_file_to_disallow.html
+    - /3rd_file_to_disallow.html
   allow:
     - /one_file_to_allow.html
     - /2nd_file_to_allow.html
