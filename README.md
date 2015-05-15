@@ -24,10 +24,24 @@ Add config for `robots.txt` to `_config.yml`.
 robotstxt:
   useragent: "*"
   disallow:
-  - /one_file_to_disallow.html
-  - /2nd_file_to_disallow.html
-  - /3rd_file_to_disallow.html
+    - /one_file_to_disallow.html
+    - /2nd_file_to_disallow.html
+    - /3rd_file_to_disallow.html
+  allow:
+    - /one_file_to_allow.html
+    - /2nd_file_to_allow.html
+    - /3rd_file_to_allow.html
+  sitemap: /sitemap.xml
 ```
+
+### Settings & their defaults values
+
+| Setting   | Description                                   | Default |
+| --------- | --------------------------------------------- | ------- |
+| useragent | Set the User-Agent                            | *       |
+| disallow  | Disallow files or folders for this User-Agent |         |
+| allow     | Allow files or folders for this User-Agent    |         |
+| sitemap   | Set the path to your sitemap                  |         |
 
 ## License
 
