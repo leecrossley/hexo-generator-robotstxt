@@ -3,7 +3,7 @@
   "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
   "description": "Basic robots.txt generator plugin for Hexo",
   "homepage": "http://ilee.co.uk",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "main": "index.js",
   "keywords": [
     "hexo",
@@ -18,7 +18,7 @@
     {
       "name": "Oliver Tönse",
       "email": "oliver.toense@getima.net"
-    }
+  },
     {
       "name": "Daniel Weiß",
       "email": "yoda@webjedi.de"
