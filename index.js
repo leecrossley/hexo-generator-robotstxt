@@ -18,7 +18,9 @@ hexo.extend.generator.register('robotstxt', function(locals){
 			}
 
 			if( cfg.sitemap ) {
-				body += "Sitemap: " + cfg.sitemap + "\n";
+				cfg.sitemap.forEach(function(entry) {
+				    body += "Sitemap: " + entry + "\n";
+				});
 			}
 
 			return body;

@@ -31,7 +31,9 @@ robotstxt:
     - /one_file_to_allow.html
     - /2nd_file_to_allow.html
     - /3rd_file_to_allow.html
-  sitemap: /sitemap.xml
+  sitemap: 
+    - /sitemap.xml
+    - /baidu_sitemap.xml
 ```
 
 ### Settings & their defaults values
